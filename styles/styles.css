@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Montserrat:wght@600&family=Space+Mono:wght@400;700&display=swap");
+*, html, body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+body {
+  background: #FFFFFF;
+  box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  min-height: 100vh;
+}
+body header h1 {
+  font-family: "Inconsolata", monospace;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 25px;
+  letter-spacing: -0.08em;
+  text-transform: uppercase;
+  width: 133px;
+  margin-left: 6.4%;
+  padding: 20px 0 64px 0;
+  color: #333333;
+}
+body main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+body main .image {
+  width: 76.49%;
+  max-width: 390px;
+}
+body main .text .bad-news {
+  font-family: "Space Mono", monospace;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 71px;
+  letter-spacing: -0.035em;
+  color: #333333;
+  margin: 60px 1px 0 6.4%;
+  width: 93.33%;
+}
+body main .text .description {
+  width: 87.47%;
+  font-family: "Space Mono", monospace;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: -0.035em;
+  color: #4F4F4F;
+  margin: 29px 0 0 6.13%;
+}
+body main .text .button {
+  width: 57.6%;
+  min-width: 150px;
+  max-width: 216px;
+  height: 68px;
+  background: #333333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 67px 0 0 6.4%;
+}
+body main .text .button .link {
+  text-decoration: none;
+  width: 130px;
+  font-family: "Space Mono", monospace;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: -0.035em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+body footer .foot {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #333333;
+  margin: 96px 0 0 0;
+  padding-bottom: 42px;
+}
+
+@media screen and (min-width: 1000px) {
+  body {
+    border-radius: 24px;
+  }
+  body header h1 {
+    margin-left: 5.35%;
+    padding: 40px 0 0 0;
+  }
+  body main {
+    flex-direction: row;
+    margin: 200px 0 0 5.35%;
+    width: 94%;
+  }
+  body main .image {
+    width: 37.46%;
+    min-width: 507px;
+  }
+  body main .text .bad-news {
+    font-size: 64px;
+    line-height: 95px;
+    width: 76%;
+    margin: 0 0 0 8.25%;
+  }
+  body main .text .description {
+    width: 45%;
+    font-size: 24px;
+    line-height: 36px;
+    margin: 36px 0 64px 8.25%;
+  }
+  body main .text .button {
+    margin: 0 0 0 8.6%;
+  }
+  body footer .foot {
+    margin: 293px 0 0 0;
+    padding: 0 0 39px 0;
+  }
+}
